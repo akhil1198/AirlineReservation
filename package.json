@@ -1,0 +1,25 @@
+{
+  "name": "airlinereservation",
+  "version": "1.0.0",
+  "description": "Airline Reservation Portal",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhil1198/AirlineReservation.git"
+  },
+  "author": "Akhil S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhil1198/AirlineReservation/issues"
+  },
+  "homepage": "https://github.com/akhil1198/AirlineReservation#readme",
+  "dependencies": {
+    "concurrently": "^6.1.0"
+  }
+}
